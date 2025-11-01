@@ -139,31 +139,40 @@ button:hover {
 }
 
 .course-card {
-  background-color: var(--accent1-color);
-  color: var(--primary-color);
-  text-align: center;
-  padding: 1rem;
+  background-color: var(--accent2-color);
+  border: 2px solid var(--primary-color);
   border-radius: 10px;
-  font-weight: bold;
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  padding: 1rem;
+  text-align: center;
+  font-family: var(--body-font);
+  color: var(--primary-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* Hover effect for interactivity */
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Completed courses */
 .course-card.completed {
-  background-color: var(--accent2-color);
+  background-color: var(--accent1-color);
   border: 3px solid var(--secondary-color);
   position: relative;
+  color: black
 }
 
+/* "Completed" label */
 .course-card.completed::after {
   content: "✓ Completed";
   position: absolute;
   top: 10px;
   right: 15px;
-  color: var(--primary-color);
+  color: black;
   font-weight: bold;
   font-size: 0.9rem;
 }
-
 
 
 .socialmedia {
