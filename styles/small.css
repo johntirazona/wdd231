@@ -1,0 +1,159 @@
+:root {
+  --primary-color: #253237;
+  --secondary-color: #5C6B73;
+  --accent1-color: #9DB4C0;
+  --accent2-color: #C2DFE3;
+  --heading-font: "Luckiest Guy", cursive;
+  --body-font: "Quicksand", sans-serif;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  margin: 0;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+}
+
+header h1 {
+  font-family: var(--heading-font);
+  font-size: 1.3rem;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background: var(--accent1-color);
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#menuBtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#mainNav {
+  display: none;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+}
+
+#mainNav.show {
+  display: flex;
+}
+
+#mainNav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem;
+  border-top: 1px solid var(--accent1-color);
+}
+
+#mainNav a:hover {
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+}
+
+main {
+  padding: 1rem;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+
+}
+
+section {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+section h2 {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+}
+
+#course-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.course-card {
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.socialmedia {
+  text-align: center;
+}
+.socialmedia a {
+  display: inline-block;
+  margin: 0 10px;
+}
+.socialmedia a img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
