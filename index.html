@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Jenly Tirazona</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="WDD 231 Course Home Page">
+  <meta name="author" content="John Jenly Tirazona">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 231 - Home</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <!-- JS -->
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/courses.js" defer></script>
 </head>
+
 <body>
-    Hello! This is my WDD 231 Repository.
+<header>
+  <div class="branding">
+    <img src="images/whale.svg" alt="Site Logo">
+    <span>John Jenly Tirazona</span>
+  </div>
+
+  <button id="menu" aria-label="Open navigation"></button>
+
+  <nav id="nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="#">Chamber</a>
+    <a href="#">Final</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Home</h1>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Welcome to my WDD 231 course home page. Here you can find my projects and course progress.</p>
+  </section>
+
+  <section>
+    <h2>Certificate Courses</h2>
+
+    <div class="filters">
+      <button id="all">All</button>
+      <button id="wdd">WDD</button>
+      <button id="cse">CSE</button>
+    </div>
+
+    <div id="courses"></div>
+    <p id="credits"></p>
+  </section>
+
+  <section>
+    <h2>Resources</h2>
+    <p>Helpful links and materials for this course will appear here.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="social">
+    <a href="https://github.com/johntirazona" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/john-jenly-tirazona-214535348/" target="_blank">LinkedIn</a>
+  </div>
+
+  <p>
+    &copy; <span id="currentyear"></span> John Jenly Tirazona | Philippines
+  </p>
+
+  <p id="lastModified"></p>
+</footer>
 </body>
 </html>

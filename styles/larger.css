@@ -1,0 +1,27 @@
+@media (min-width: 32.5rem) {
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  #courses {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
