@@ -68,7 +68,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  background: var(--blue2);
+  background: darkblue;
 }
 
 main {
