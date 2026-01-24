@@ -126,3 +126,19 @@ footer a {
   height: 1px;
   overflow: hidden;
 }
+
+.social {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+}
+
+.social img:hover {
+  transform: scale(1.1);
+}
