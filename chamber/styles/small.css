@@ -199,3 +199,25 @@ footer h2 {
   overflow: hidden;
   clip: rect(0,0,0,0);
 }
+
+
+.spotlights {
+  padding: 1rem;
+}
+
+#spotlight-container {
+  display: grid;
+  gap: 1rem;
+}
+
+.spotlight-card {
+  background: #e6f0ff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.spotlight-card img {
+  max-width: 120px;
+  margin: 0.5rem auto;
+}

@@ -1,15 +1,22 @@
-const spotlightContainer = document.querySelector("#spotlights");
+const spotlightContainer = document.querySelector("#spotlight-container");
+const dataURL = "./data/members.json";
 
 async function loadSpotlights() {
   try {
-    const response = await fetch("data/members.json");
+    const response = await fetch(dataURL);
+    if (!response.ok) throw new Error("Failed to load members");
+
     const data = await response.json();
 
-    const qualified = data.filter(
-      member => member.membershipLevel === 2 || member.membershipLevel === 3
+    // ONLY Silver (2) and Gold (3) members
+    const qualifiedMembers = data.members.filter(
+      member => member.membership === 2 || member.membership === 3
     );
 
-    const shuffled = qualified.sort(() => 0.5 - Math.random());
+    // RANDOMIZE
+    const shuffled = qualifiedMembers.sort(() => 0.5 - Math.random());
+
+    // TAKE 2 OR 3
     const selected = shuffled.slice(0, 3);
 
     spotlightContainer.innerHTML = "";
@@ -19,19 +26,20 @@ async function loadSpotlights() {
       card.classList.add("spotlight-card");
 
       card.innerHTML = `
-        <img src="images/${member.image}" alt="${member.name} logo">
         <h3>${member.name}</h3>
-        <p>${member.address}</p>
-        <p>${member.phone}</p>
+        <img src="images/${member.image}" alt="${member.name} logo" loading="lazy">
+        <p><strong>Phone:</strong> ${member.phone}</p>
+        <p><strong>Address:</strong> ${member.address}</p>
+        <p><strong>Membership:</strong> ${member.membership === 3 ? "Gold" : "Silver"}</p>
         <a href="${member.website}" target="_blank">Visit Website</a>
-        <span class="level">${member.membershipLevel === 3 ? "Gold" : "Silver"} Member</span>
       `;
 
       spotlightContainer.appendChild(card);
     });
 
   } catch (error) {
-    console.error("Spotlight error:", error);
+    console.error("Spotlight Error:", error);
+    spotlightContainer.innerHTML = "<p>Unable to load spotlights.</p>";
   }
 }
 
