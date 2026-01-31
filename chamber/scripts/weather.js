@@ -11,7 +11,7 @@ const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&
 
 async function getWeather() {
   try {
-    // CURRENT WEATHER
+
     const response = await fetch(currentURL);
     if (!response.ok) throw new Error("Weather data not available");
     const data = await response.json();
@@ -19,7 +19,6 @@ async function getWeather() {
     currentTemp.textContent = `${Math.round(data.main.temp)}°C`;
     weatherDesc.textContent = data.weather[0].description;
 
-    // FORECAST
     const forecastResponse = await fetch(forecastURL);
     if (!forecastResponse.ok) throw new Error("Forecast data not available");
     const forecastData = await forecastResponse.json();

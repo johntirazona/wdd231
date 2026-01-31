@@ -8,15 +8,12 @@ async function loadSpotlights() {
 
     const data = await response.json();
 
-    // ONLY Silver (2) and Gold (3) members
     const qualifiedMembers = data.members.filter(
       member => member.membership === 2 || member.membership === 3
     );
 
-    // RANDOMIZE
     const shuffled = qualifiedMembers.sort(() => 0.5 - Math.random());
 
-    // TAKE 2 OR 3
     const selected = shuffled.slice(0, 3);
 
     spotlightContainer.innerHTML = "";

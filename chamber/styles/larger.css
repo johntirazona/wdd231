@@ -1,8 +1,5 @@
 @media (min-width: 48rem) {
 
-  /* =======================
-     HEADER & NAV
-  ======================= */
   header {
     display: flex;
     justify-content: space-between;
@@ -15,25 +12,17 @@
     margin-top: 0;
   }
 
-  /* =======================
-     HERO
-  ======================= */
+
   .cta {
     bottom: 2.5rem;
     font-size: 1.1rem;
   }
 
-  /* =======================
-     MAIN LAYOUT
-  ======================= */
   main {
     max-width: 1100px;
     margin: 0 auto;
   }
 
-  /* =======================
-     HOME GRID
-  ======================= */
   main {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -56,9 +45,6 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /* =======================
-     FOOTER
-  ======================= */
   footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -78,7 +64,7 @@
 @media (min-width: 48rem) {
 
   .hero {
-    max-height: 500px;  /* slightly taller on desktop */
+    max-height: 500px;
   }
 
   .hero img {
