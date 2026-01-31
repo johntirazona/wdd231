@@ -1,58 +1,60 @@
-[
-  {
-    "name": "Alliance Software, Inc.",
-    "address": "14th Floor, Buildcomm Center, Sumilon Road, Cebu Business Park, Cebu City",
-    "phone": "(6332) 261-1705",
-    "website": "https://alliance.com.ph",
-    "image": "business-1.png",
-    "membership":3
-  },
-  {
-    "name": "Trans-Asia Shipping Lines, Inc.",
-    "address": "Corner MJ Cuenco Ave. and Quezon Blvd., Cebu City",
-    "phone": "(6332) 234-2741",
-    "website": "https://transasiashipping.com",
-    "image": "business-2.png",
-    "membership":2
-  },
-  {
-    "name": "Top of Cebu",
-    "address": "Cebu Tops Rd, Busay, Cebu City",
-    "phone": "0920-986-6565",
-    "website": "https://www.topscebu.ph",
-    "image": "business-3.webp",
-    "membership":3
-  },
-  {
-    "name": "Lexmark Research & Development Corp.",
-    "address": "Cebu Business Park, Cardinal Rosales Ave, Cebu City",
-    "phone": "(6332) 234-8000",
-    "website": "https://www.lexmark.com",
-    "image": "business-4.jpg",
-    "membership":3
-  },
-  {
-    "name": "Cebu City Tour",
-    "address": "Jose L. Briones St, North Reclamation Area, Cebu City",
-    "phone": "0922-702-0394",
-    "website": "https://cebucitytour.com",
-    "image": "business-5.png",
-    "membership":3
-  },
-  {
-    "name": "Qualfon Philippines, Inc.",
-    "address": "Skyrise 3 Building, Cebu IT Park, Apas, Cebu City",
-    "phone": "(6332) 479-9976",
-    "website": "https://www.qualfon.com",
-    "image": "business-6.jpg",
-    "membership":3
-  },
-  {
-    "name": "Visayan Electric Company",
-    "address": "J. Panis Street, Banilad, Cebu City",
-    "phone": "(6332) 230-8326",
-    "website": "https://www.visayanelectric.com",
-    "image": "business-7.jpg",
-    "membership":3
-  }
-]
+{
+  "members": [
+    {
+      "name": "Alliance Software, Inc.",
+      "address": "14th Floor, Buildcomm Center, Sumilon Road, Cebu Business Park, Cebu City",
+      "phone": "(6332) 261-1705",
+      "website": "https://alliance.com.ph",
+      "image": "business-1.png",
+      "membership": 3
+    },
+    {
+      "name": "Trans-Asia Shipping Lines, Inc.",
+      "address": "Corner MJ Cuenco Ave. and Quezon Blvd., Cebu City",
+      "phone": "(6332) 234-2741",
+      "website": "https://transasiashipping.com",
+      "image": "business-2.png",
+      "membership": 2
+    },
+    {
+      "name": "Top of Cebu",
+      "address": "Cebu Tops Rd, Busay, Cebu City",
+      "phone": "0920-986-6565",
+      "website": "https://www.topscebu.ph",
+      "image": "business-3.webp",
+      "membership": 3
+    },
+    {
+      "name": "Lexmark Research & Development Corp.",
+      "address": "Cebu Business Park, Cardinal Rosales Ave, Cebu City",
+      "phone": "(6332) 234-8000",
+      "website": "https://www.lexmark.com",
+      "image": "business-4.jpg",
+      "membership": 3
+    },
+    {
+      "name": "Cebu City Tour",
+      "address": "Jose L. Briones St, North Reclamation Area, Cebu City",
+      "phone": "0922-702-0394",
+      "website": "https://cebucitytour.com",
+      "image": "business-5.png",
+      "membership": 3
+    },
+    {
+      "name": "Qualfon Philippines, Inc.",
+      "address": "Skyrise 3 Building, Cebu IT Park, Apas, Cebu City",
+      "phone": "(6332) 479-9976",
+      "website": "https://www.qualfon.com",
+      "image": "business-6.jpg",
+      "membership": 3
+    },
+    {
+      "name": "Visayan Electric Company",
+      "address": "J. Panis Street, Banilad, Cebu City",
+      "phone": "(6332) 230-8326",
+      "website": "https://www.visayanelectric.com",
+      "image": "business-7.jpg",
+      "membership": 3
+    }
+  ]
+}
