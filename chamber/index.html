@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="WDD 231 PROJECT By: John Tirazona: Cebu City Chamber of Commerce home page.">
+<meta name="author" content="John Jenly Tirazona">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cebu City Chamber of Commerce | Home</title>
+
+<!-- Favicon -->
+<link rel="icon" href="images/favicon.ico">
+
+<!-- Facebook Meta -->
+<meta property="og:title" content="Cebu City Chamber of Commerce">
+<meta property="og:description" content="Supporting and connecting businesses in Cebu City, Philippines.">
+<meta property="og:image" content="https://johntirazona.github.io/wdd231/chamber/images/logo.png">
+<meta property="og:url" content="https://johntirazona.github.io/wdd231/chamber/index.html">
+<meta property="og:type" content="website">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/larger.css">
+
+<!-- JS -->
+<script src="scripts/weather.js" defer></script>
+<script src="scripts/spotlight.js" defer></script>
+<script src="scripts/dates.js" defer></script>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="logo-area">
+    <img src="images/logo.png" alt="Cebu Chamber Logo">
+    <span>Cebu City Chamber of Commerce</span>
+  </div>
+
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="directory.html">Directory</a>
+    <a href="#">Join</a>
+    <a href="#">Discover</a>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <h2 class="visually-hidden">Cebu City Chamber Hero</h2>
+
+  <img src="images/hero-image.jpg" alt="Cebu City Skyline">
+  <a href="#" class="cta">Join the Chamber</a>
+</section>
+
+<!-- ================= MAIN ================= -->
+<main>
+
+  <h1>Welcome to the Cebu City Chamber of Commerce</h1>
+
+  <!-- CURRENT EVENTS -->
+  <section class="events">
+    <h2>Current Events</h2>
+    <ul>
+      <li>📅 Cebu Business Expo – March 15, 2026</li>
+      <li>🤝 SME Networking Night – April 2, 2026</li>
+      <li>📈 Entrepreneurship Workshop – April 20, 2026</li>
+    </ul>
+  </section>
+
+  <!-- WEATHER -->
+<section class="weather">
+  <h2>Weather</h2>
+  <p><strong>Temperature:</strong> <span id="current-temp"></span></p>
+  <p><strong>Conditions:</strong> <span id="weather-desc"></span></p>
+
+  <div id="forecast" class="forecast"></div>
+</section>
+
+
+  <!-- SPOTLIGHTS -->
+  <section class="spotlights">
+    <h2>Business Spotlights</h2>
+
+    <div id="spotlight-cards" class="grid">
+      <!-- JS injects spotlight cards here -->
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="footer-left">
+    <h2>Cebu City Chamber of Commerce</h2>
+    <p>Cebu City, Philippines</p>
+    <p>Email: info@cebucitychamber.org</p>
+    <p>Phone: (032) 555-6789</p>
+  </div>
+
+  <div class="footer-center">
+    <p>© <span id="year"></span> John Jenly Tirazona | WDD 231</p>
+    <p id="lastModified"></p>
+  </div>
+
+  <div class="footer-right social">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+      <img src="images/facebook.svg" alt="Facebook icon">
+    </a>
+
+    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+      <img src="images/github.svg" alt="GitHub icon">
+    </a>
+
+    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+      <img src="images/linkedin.svg" alt="LinkedIn icon">
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
