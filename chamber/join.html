@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Join the Cebu City Chamber of Commerce">
+<meta name="description" content="John Jenly Tirazona - WDD 231 W04 Assignment Join the Cebu City Chamber of Commerce">
 <meta name="author" content="John Jenly Tirazona">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Discover Trusted Local Businesses in Cebu City">
+<meta property="og:description" content="Join the Cebu City Chamber of Commerce to connect with trusted local businesses, expand your network, and grow your organization through community partnerships.">
+<meta property="og:image" content="https://johntirazona.github.io/wdd231/chamber/images/og-image.png">
+<meta property="og:url" content="https://johntirazona.github.io/wdd231/chamber/join.html">
+<meta property="og:type" content="website">
+
 
 <title>Cebu City Chamber of Commerce | Join</title>
 
@@ -103,27 +109,27 @@ Business Description
 
 <div class="membership-cards">
   <div class="card animate">
-    <h3>NP Membership</h3>
+    <h2>NP Membership</h2>
     <p>No fee for non-profit organizations.</p>
-    <button onclick="document.getElementById('npModal').showModal()">Learn More</button>
+    <button class="open-modal" data-modal="npModal">Learn More</button>
   </div>
 
   <div class="card animate">
     <h3>Bronze</h3>
     <p>Entry-level exposure and networking.</p>
-    <button onclick="document.getElementById('bronzeModal').showModal()">Learn More</button>
+    <button class="open-modal" data-modal="bronzeModal">Learn More</button>
   </div>
 
   <div class="card animate">
     <h3>Silver</h3>
     <p>Advertising perks and event discounts.</p>
-    <button onclick="document.getElementById('silverModal').showModal()">Learn More</button>
+    <button class="open-modal" data-modal="silverModal">Learn More</button>
   </div>
 
   <div class="card animate">
     <h3>Gold</h3>
     <p>Premium visibility and spotlight features.</p>
-    <button onclick="document.getElementById('goldModal').showModal()">Learn More</button>
+    <button class="open-modal" data-modal="goldModal">Learn More</button>
   </div>
 </div>
 
@@ -152,10 +158,18 @@ Business Description
 </footer>
 
 
-<dialog id="npModal"><p>No cost, basic access.</p><button onclick="this.closest('dialog').close()">Close</button></dialog>
-<dialog id="bronzeModal"><p>Training & networking.</p><button onclick="this.closest('dialog').close()">Close</button></dialog>
-<dialog id="silverModal"><p>Advertising & discounts.</p><button onclick="this.closest('dialog').close()">Close</button></dialog>
-<dialog id="goldModal"><p>Homepage spotlights & VIP events.</p><button onclick="this.closest('dialog').close()">Close</button></dialog>
+<dialog id="npModal"><p>No cost, basic access.</p>
+    <button class="close-modal">Close</button>
+</dialog>
+<dialog id="bronzeModal"><p>Training & networking.</p>
+    <button class="close-modal">Close</button>
+</dialog>
+<dialog id="silverModal"><p>Advertising & discounts.</p>
+    <button class="close-modal">Close</button>
+</dialog>
+<dialog id="goldModal"><p>Homepage spotlights & VIP events.</p>
+    <button class="close-modal">Close</button>
+</dialog>
 
 </body>
 </html>
