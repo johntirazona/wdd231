@@ -1,0 +1,77 @@
+.discover-grid {
+display: grid;
+gap: 1rem;
+}
+
+/* SMALL (default) */
+.discover-grid {
+grid-template-areas:
+"a"
+"b"
+"c"
+"d"
+"e"
+"f"
+"g"
+"h";
+}
+
+.discover-grid article:nth-child(1){grid-area:a;}
+.discover-grid article:nth-child(2){grid-area:b;}
+.discover-grid article:nth-child(3){grid-area:c;}
+.discover-grid article:nth-child(4){grid-area:d;}
+.discover-grid article:nth-child(5){grid-area:e;}
+.discover-grid article:nth-child(6){grid-area:f;}
+.discover-grid article:nth-child(7){grid-area:g;}
+.discover-grid article:nth-child(8){grid-area:h;}
+
+/* MEDIUM */
+@media (min-width:641px){
+.discover-grid{
+grid-template-columns:1fr 1fr;
+grid-template-areas:
+"a b"
+"c d"
+"e f"
+"g h";
+}
+}
+
+/* LARGE */
+@media (min-width:1025px){
+.discover-grid{
+grid-template-columns:repeat(4,1fr);
+grid-template-areas:
+"a b c d"
+"e f g h";
+}
+}
+
+/* CARD STYLE */
+.discover-grid article{
+background:#f5f5f5;
+padding:1rem;
+border-radius:8px;
+}
+
+/* IMAGE HOVER EFFECT (NOT MOBILE) */
+@media (min-width:641px){
+.discover-grid img:hover{
+transform:scale(1.05);
+filter:brightness(1.1);
+transition:0.3s ease;
+}
+}
+
+.discover-grid img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.visit-box{
+background:#e6f0ff;
+padding:1rem;
+margin-bottom:1rem;
+border-left:6px solid var(--accent);
+}
