@@ -21,30 +21,30 @@ image: "images/fort-san-pedro.jpg"
 name: "Temple of Leah",
 address: "Busay, Cebu City",
 description: "A grand Roman-inspired structure overlooking Cebu.",
-image: "images/leah.webp"
+image: "images/temple-of-leah.jpg"
 },
 {
 name: "Tops Lookout",
 address: "Busay Hills, Cebu City",
 description: "Popular viewing deck offering panoramic city views.",
-image: "images/tops.webp"
+    image: "images/tops-lookout.jpg"
 },
 {
 name: "Carbon Market",
 address: "MC Briones St, Cebu City",
 description: "The city’s oldest and busiest public market.",
-image: "images/carbon.webp"
+image: "images/carbon-market.jpg"
 },
 {
 name: "Cebu IT Park",
 address: "Apas, Cebu City",
 description: "Modern business hub with offices, dining, and innovation spaces.",
-image: "images/itpark.webp"
+image: "images/cebu-it-park.png"
 },
 {
 name: "Fuente Osmeña Circle",
 address: "Osmeña Blvd, Cebu City",
 description: "Major commercial and historical roundabout in downtown Cebu.",
-image: "images/fuente.webp"
+image: "images/fuente-osmeña-circle.webp"
 }
 ];
