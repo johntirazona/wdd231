@@ -1,12 +1,14 @@
 @media (min-width: 768px) {
 
-/* ===== FULL-WIDTH HEADER ===== */
 header {
 width: 100%;
 background: var(--ocean);
 }
 
-/* Center the content inside header */
+#menu {
+display: none;
+}
+
 header > * {
 max-width: 1100px;
 margin-left: auto;
@@ -22,7 +24,10 @@ padding: 3rem;
 margin-top: 3rem;
 }
 
-/* Make header layout horizontal */
+.cards-container {
+grid-template-columns: repeat(3, 1fr);
+}
+
 header {
 display: grid;
 grid-template-columns: auto 1fr auto;
@@ -30,12 +35,13 @@ align-items: center;
 padding: 1rem 2rem;
 }
 
-/* Navigation alignment */
 nav {
 display: flex !important;
 flex-direction: row;
-gap: 1.5rem;
+position: static;
+max-height: none;
 background: none;
+box-shadow: none;
 }
 
 nav a {
@@ -50,15 +56,13 @@ padding-left: 1rem;
 }
 
 
-/* ===== FULL-WIDTH FOOTER ===== */
 footer {
 width: 100%;
 background: var(--ocean);
-margin: 0;              /* remove centering */
-border-radius: 0;       /* prevent boxed look */
+margin: 0;              
+border-radius: 0;       
 }
 
-/* Center footer content while background stays full */
 footer {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
@@ -73,18 +77,12 @@ margin-right: auto;
 width: 100%;
 }
 
-/* Text alignment */
 .footer-left { text-align: left; }
 .footer-center { text-align: center; }
 .footer-right { text-align: right; }
 
-/* Keep icons aligned right */
 .footer-right .social {
 justify-content: flex-end;
 }
 
-}
-
-#menu {
-display: none;
 }

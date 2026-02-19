@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="styles/large.css">
 
 <title>Discover Bohol</title>
-<script type="module" src="scripts/main.js"></script>
+<script type="module" src="scripts/main.js" defer></script>
 <script src="scripts/dates.js" defer></script>
 <script src="scripts/weather.js" defer></script>
 </head>
@@ -48,6 +48,7 @@
 </section>
 
 <main>
+<body class="home"></body>
 <section class="intro">
 <h2>Your Tropical Escape</h2>
 <p>Explore nature, culture, and adventure in one of the Philippines' most breathtaking islands.</p>
@@ -61,6 +62,11 @@
   <div id="forecast" class="forecast"></div>
 </section>
 
+<section class="destinations">
+  <h2>Top Destinations</h2>
+  <div id="cards" class="cards-container">
+  </div>
+</section>
 
 </main>
 

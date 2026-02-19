@@ -4,49 +4,49 @@
 "location": "Carmen",
 "type": "Nature",
 "description": "Over 1,200 symmetrical hills that turn brown during dry season.",
-"image": "images/chocolate-hills.jpg"
+"image": "images/chocolate-hills.jfif"
 },
 {
 "name": "Panglao Island",
 "location": "Panglao",
 "type": "Beach",
 "description": "Famous for white sand beaches and diving spots.",
-"image": "images/panglao.jpg"
+"image": "images/panglao.jfif"
 },
 {
 "name": "Tarsier Sanctuary",
 "location": "Corella",
 "type": "Wildlife",
 "description": "Home of the world’s smallest primate.",
-"image": "images/tarsier.jpg"
+"image": "images/tarsier.jfif"
 },
 {
 "name": "Loboc River Cruise",
 "location": "Loboc",
 "type": "Activity",
 "description": "Floating restaurant with cultural performances.",
-"image": "images/loboc.jpg"
+"image": "images/loboc.webp"
 },
 {
 "name": "Baclayon Church",
 "location": "Baclayon",
 "type": "Heritage",
 "description": "One of the oldest stone churches in the Philippines.",
-"image": "images/baclayon.jpg"
+"image": "images/baclayon.jfif"
 },
 {
 "name": "Hinagdanan Cave",
 "location": "Panglao",
 "type": "Nature",
 "description": "A limestone cave with a natural underground pool.",
-"image": "images/cave.jpg"
+"image": "images/cave.jfif"
 },
 {
 "name": "Alona Beach",
 "location": "Panglao",
 "type": "Beach",
 "description": "Top destination for nightlife and diving.",
-"image": "images/alona.jpg"
+"image": "images/alona.jfif"
 },
 {
 "name": "Man-Made Forest",
@@ -67,7 +67,7 @@
 "location": "Anda",
 "type": "Beach",
 "description": "Less crowded beach with powdery white sand.",
-"image": "images/anda.jpg"
+"image": "images/anda.jfif"
 },
 {
 "name": "Danao Adventure Park",
