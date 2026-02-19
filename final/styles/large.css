@@ -3,6 +3,10 @@
 header {
 width: 100%;
 background: var(--ocean);
+display: grid;
+grid-template-columns: auto 1fr auto;
+align-items: center;
+padding: 1rem 2rem;
 }
 
 #menu {
@@ -26,13 +30,6 @@ margin-top: 3rem;
 
 .cards-container {
 grid-template-columns: repeat(3, 1fr);
-}
-
-header {
-display: grid;
-grid-template-columns: auto 1fr auto;
-align-items: center;
-padding: 1rem 2rem;
 }
 
 nav {
@@ -60,14 +57,11 @@ footer {
 width: 100%;
 background: var(--ocean);
 margin: 0;              
-border-radius: 0;       
-}
-
-footer {
+border-radius: 0;  
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 gap: 1rem;
-padding: 2rem;
+padding: 2rem;     
 }
 
 footer > div {
