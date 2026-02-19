@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="John Jenly Tirazona">
+<meta name="description" content="John Jenly Tirazona's WDD 231 Project:Travel guide to Bohol Philippines featuring attractions, culture, and travel tips.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta property="og:title" content="Discover Bohol">
+<meta property="og:description" content="Explore the beauty of Bohol.">
+<meta property="og:image" content="images/hero.jpg">
+
+<link rel="icon" href="images/favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/normaliza.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/large.css">
+
+<title>Discover Bohol</title>
+<script type="module" src="scripts/main.js"></script>
+<script src="scripts/dates.js" defer></script>
+<script src="scripts/weather.js" defer></script>
+</head>
+
+<body>
+
+<header>
+<div class="logo-area">
+    <img src="images/logo.png" alt="Cebu Chamber Logo">
+</div>
+<h1>Discover Bohol</h1>
+<button id="menu">☰</button>
+<nav>
+<a href="index.html">Home</a>
+<a href="destinations.html">Destinations</a>
+<a href="plan.html">Plan Trip</a>
+</nav>
+
+</header>
+
+<section class="hero">
+  <img src="imageS/hero.png" alt="Bohol Chocolate Hills">
+  <a href="destinations.html" class="cta">Discover Bohol!</a>
+</section>
+
+<main>
+<section class="intro">
+<h2>Your Tropical Escape</h2>
+<p>Explore nature, culture, and adventure in one of the Philippines' most breathtaking islands.</p>
+</section>
+
+<section class="weather">
+  <h2>Weather</h2>
+  <p><strong>Temperature:</strong> <span id="current-temp"></span></p>
+  <p><strong>Conditions:</strong> <span id="weather-desc"></span></p>
+
+  <div id="forecast" class="forecast"></div>
+</section>
+
+
+</main>
+
+<footer>
+  <div class="footer-left">
+    <h2>Discover Bohol</h2>
+    <p>Bohol Island, Philippines</p>
+    <p>Email: info@discoverbohol.org</p>
+    <p>Phone: (032) 555-6789</p>
+  </div>
+
+  <div class="footer-center">
+    <p>© <span id="year"></span> John Jenly Tirazona | WDD 231</p>
+    <p id="lastModified"></p>
+  </div>
+
+  <div class="footer-right social">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+      <img src="images/facebook.svg" alt="Facebook icon">
+    </a>
+
+    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+      <img src="images/github.svg" alt="GitHub icon">
+    </a>
+
+    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+      <img src="images/linkedin.svg" alt="LinkedIn icon">
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>

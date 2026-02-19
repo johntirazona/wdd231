@@ -1,0 +1,107 @@
+[
+{
+"name": "Chocolate Hills",
+"location": "Carmen",
+"type": "Nature",
+"description": "Over 1,200 symmetrical hills that turn brown during dry season.",
+"image": "images/chocolate-hills.jpg"
+},
+{
+"name": "Panglao Island",
+"location": "Panglao",
+"type": "Beach",
+"description": "Famous for white sand beaches and diving spots.",
+"image": "images/panglao.jpg"
+},
+{
+"name": "Tarsier Sanctuary",
+"location": "Corella",
+"type": "Wildlife",
+"description": "Home of the world’s smallest primate.",
+"image": "images/tarsier.jpg"
+},
+{
+"name": "Loboc River Cruise",
+"location": "Loboc",
+"type": "Activity",
+"description": "Floating restaurant with cultural performances.",
+"image": "images/loboc.jpg"
+},
+{
+"name": "Baclayon Church",
+"location": "Baclayon",
+"type": "Heritage",
+"description": "One of the oldest stone churches in the Philippines.",
+"image": "images/baclayon.jpg"
+},
+{
+"name": "Hinagdanan Cave",
+"location": "Panglao",
+"type": "Nature",
+"description": "A limestone cave with a natural underground pool.",
+"image": "images/cave.jpg"
+},
+{
+"name": "Alona Beach",
+"location": "Panglao",
+"type": "Beach",
+"description": "Top destination for nightlife and diving.",
+"image": "images/alona.jpg"
+},
+{
+"name": "Man-Made Forest",
+"location": "Bilar",
+"type": "Nature",
+"description": "A two-kilometer stretch of mahogany trees.",
+"image": "images/forest.jpg"
+},
+{
+"name": "Blood Compact Shrine",
+"location": "Tagbilaran",
+"type": "History",
+"description": "Commemorates the first treaty of friendship.",
+"image": "images/shrine.jpg"
+},
+{
+"name": "Anda Beach",
+"location": "Anda",
+"type": "Beach",
+"description": "Less crowded beach with powdery white sand.",
+"image": "images/anda.jpg"
+},
+{
+"name": "Danao Adventure Park",
+"location": "Danao",
+"type": "Adventure",
+"description": "Extreme activities like ziplining and canyon swings.",
+"image": "images/danao.jpg"
+},
+{
+"name": "Sevilla Hanging Bridge",
+"location": "Sevilla",
+"type": "Cultural",
+"description": "A bamboo bridge crossing Loboc River.",
+"image": "images/bridge.jpg"
+},
+{
+"name": "Balicasag Island",
+"location": "Panglao",
+"type": "Marine",
+"description": "Marine sanctuary with sea turtles and coral reefs.",
+"image": "images/balicasag.jpg"
+},
+{
+"name": "Bohol Bee Farm",
+"location": "Panglao",
+"type": "Food",
+"description": "Organic farm known for healthy cuisine.",
+"image": "images/beefarm.jpg"
+},
+{
+"name": "Mag-Aso Falls",
+"location": "Antequera",
+"type": "Nature",
+"description": "Twin waterfall surrounded by lush forest.",
+"image": "images/falls.jpg"
+}
+]

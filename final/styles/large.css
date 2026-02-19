@@ -1,0 +1,90 @@
+@media (min-width: 768px) {
+
+/* ===== FULL-WIDTH HEADER ===== */
+header {
+width: 100%;
+background: var(--ocean);
+}
+
+/* Center the content inside header */
+header > * {
+max-width: 1100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.hero img {
+height: 480px;
+}
+
+main section {
+padding: 3rem;
+margin-top: 3rem;
+}
+
+/* Make header layout horizontal */
+header {
+display: grid;
+grid-template-columns: auto 1fr auto;
+align-items: center;
+padding: 1rem 2rem;
+}
+
+/* Navigation alignment */
+nav {
+display: flex !important;
+flex-direction: row;
+gap: 1.5rem;
+background: none;
+}
+
+nav a {
+border: none;
+padding: .5rem 1rem;
+border-radius: 4px;
+}
+
+nav a:hover {
+background: rgba(255,255,255,0.2);
+padding-left: 1rem;
+}
+
+
+/* ===== FULL-WIDTH FOOTER ===== */
+footer {
+width: 100%;
+background: var(--ocean);
+margin: 0;              /* remove centering */
+border-radius: 0;       /* prevent boxed look */
+}
+
+/* Center footer content while background stays full */
+footer {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 1rem;
+padding: 2rem;
+}
+
+footer > div {
+max-width: 1100px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+/* Text alignment */
+.footer-left { text-align: left; }
+.footer-center { text-align: center; }
+.footer-right { text-align: right; }
+
+/* Keep icons aligned right */
+.footer-right .social {
+justify-content: flex-end;
+}
+
+}
+
+#menu {
+display: none;
+}
